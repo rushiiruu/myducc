@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Nunito+Sans&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Nunito+Sans&family=Open+Sans:wght@300&family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Nunito+Sans&family=Open+Sans:wght@300&family=Passions+Conflict&family=Rubik+Puddles&display=swap');
+input{
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(18, 18, 18);
+}
+.hello{
+    color: rgb(242, 242, 242);
+    position: relative;
+  position: absolute;
+  top: 40%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+.press
+{
+  color: rgb(242, 242, 242);
+  font-family: 'Fredoka One', cursive;
+  border: 2px solid rgb(242, 242, 242); 
+  width: 40px;
+  padding: 10px;
+ 
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.press:hover{
+  background-color:rgb(242, 242, 242) ;
+  color: rgb(18, 18, 18);
+}
+.love
+{
+  color: rgb(242, 242, 242);
+  font-family: 'Rubik Puddles', cursive;
+  
+  width: 40px;
+  padding: 10px;
+ font-size: 35px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.press a{
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+    
+}
+.press a:hover{
+    color: rgb(18, 18, 18);
+}
+.msg{
+    color: rgb(242, 242, 242);
+    position: relative;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-family: 'Passions Conflict', cursive;
+    font-size: 35px; 
+    width: 800px;
+    text-align: justify;
+}

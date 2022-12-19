@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Nunito+Sans&family=Open+Sans:wght@300&display=swap');
+input{
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(18, 18, 18);
+}
+.hello{
+    color: rgb(242, 242, 242);
+    position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+#troy{
+    color: rgb(242, 242, 242);
+    position: relative;
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+}
+.press
+{
+  color: rgb(242, 242, 242);
+  font-family: 'Fredoka One', cursive;
+  border: 2px solid rgb(242, 242, 242); 
+  width: 40px;
+  padding: 10px;
+ 
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.press:hover{
+  background-color:rgb(242, 242, 242) ;
+  color: rgb(18, 18, 18);
+}
+.press a{
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+  
+}
+.press a:hover{
+  color: rgb(18, 18, 18);
+}
